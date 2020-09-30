@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family:"roboto";
+}
+header{
+	background:#eddcd2;
+}
+header nav{
+	display: flex;
+	flex-direction:row;
+	justify-content: space-between;
+	align-items: center;
+}
+/*.contenedor{
+	transform: scale(1,2);
+}*/
+header nav .menu{
+	display: flex;
+	flex-direction:row;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0px 20px;
+}
+header nav .menu .brand img{
+	width:30px;
+}
+header nav .menu .link{
+	display: flex;
+}
+header nav .menu .link a {
+	padding: 16px 12px;
+	color:#a5a58d;
+	text-decoration: none;
+	border-bottom: 6px solid transparent;
+	transition: border ,3s ease;
+}
+header nav .menu .link a:hover{
+	border-bottom-color:black; 
+}
+
+header nav .menu .link a .active{
+	border-bottom-color:black;
+	text-decoration: none; 
+}
+header nav .auth button {
+	padding:21px 20px;
+	border:none;
+	background:#a5a58d;
+	color:#fff;
+
+}
+body{
+background: #fff1e6;
+}
+main{
+	width: 80%;
+	margin: 40px auto;
+}
+main .contenedor img{
+	width: 100%;
+}
+main .contenedor{
+	margin-bottom: 20px;
+}
+footer{
+	background-color:#fff1e6;
+	line-height:3;
+	text-align:center;
+	width:100%;
+	align-self: flex-end;
+}
+
+/* comienza aparatologia */
+
+.background_color{
+	background: #ee9ca7;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #ffdde1, #ee9ca7);  
+	/* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #ffdde1, #ee9ca7); 
+	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+h1{
+	float: center;
+    color: black;
+    font-family: "roboto";
+    font-size: 5rem;
+    display: flex;
+    justify-content: center;
+}
+.galeria{
+    display: grid;
+    grid-template-columns: repeat(2, 650px);
+    width: 95%;
+    margin: auto;
+    gap: 10px;
+    padding: 40px 0;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+}
+
+.galeria img{
+    width: 95%;
+    vertical-align: top;
+    height: 800px;
+    object-fit: cover;
+
+}
+
+.galeria img:hover{
+    transform: scale(1.5);
+}
+
+

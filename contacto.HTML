@@ -1,0 +1,57 @@
+	<!DOCTYPE html>
+ <html lang="en">
+   <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width-device,initial-scale=10">
+    <title>pinkbeuty</title>
+      <link rel="stylesheet" type="text/css" href="style.css">
+   </head>
+   <body>
+    <header>
+      <nav>
+        <div class="menu">
+          <div class="brand">
+           <img src="fotos/fondo.png"/>
+          </div>
+           <div class="link">
+          <a href="home.html"class="active" >home</a>  
+              <a href="aparatologia.html"class="active" >aparatologia</a>
+              <a href="servicios.html"class="active" >servicios</a>
+              <a href="ecopiel.html"class="active" >ecopiel</a>
+              <a href="contacto.html"class="active" >contacto</a>
+         </div> 
+        </div>
+          
+          <div class="auth">
+          <button class="login">contactanos</button>
+        </div>
+      </nav>
+    </header>
+    <form>
+  <fieldset>
+        <legend >Formulario de contacto</legend>
+        <label for="nombre_y_apellido">Nombre y Apellido</label>
+            <input type="text"  required name="nombre_y_apellido">
+
+        <label for="email">Email</label>
+            <input type="email" name="textcorreo" id="email"> <br><br>
+
+        <label for="telefono"> Telefono </label><br>
+            <input type="radio" name="tipo_telefono" id="telefono"> Celular <br>
+            <input type="radio" name="tipo_telefono" id="telefono"> Domicilio <br>
+            <input type="text" name="Número_Telefónico" placeholder="Ingese Número Telefónico"><br><br>
+          </select><br><br>
+
+        <label for="mensaje">Ingrese su mensaje</label><br>
+            <textarea placeholder="Mensaje" name="mensaje" id="mensaje" cols="30" rows="10"></textarea><br><br>
+
+        <label for="notificacion">¿Desea recibir información de nuestras publicaciones?</label>
+            <input type="checkbox" name="notificación" id="notificacion"><br><br>
+
+        <input type="submit" name="Enviar_Mensaje" id="enviar mensaje">
+        <input type="reset" name="Limpiar_Formulario" id="limpiar formulario">
+        
+    </fieldset>
+</form>
+</body>
+</html>
